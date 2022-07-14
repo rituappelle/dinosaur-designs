@@ -5,8 +5,8 @@ html {
   box-sizing: border-box;
 }
 
-*,*::before, *::after {
-box-sizing: inherit;
+*, *::before, *::after {
+  box-sizing: inherit;
 }
 img {
   width: 100%;
@@ -14,8 +14,8 @@ img {
 
 h1, h2 {
   color: #5d8432;
- text-transform: uppercase;
- font-family: "Patua One", sans-serif;
+   text-transform: uppercase;
+   font-family: "Patua One", sans-serif;
 }
 
 figcaption {
@@ -25,9 +25,9 @@ figcaption {
 }
 
 nav {
-font-size: 1.125rem;
-font-weight: bold;
-font-family: "Patua One", sans-serif;
+  font-size: 1.125rem;
+  font-weight: bold;
+  font-family: "Patua One", sans-serif;
 }
 
 nav ol {
@@ -40,7 +40,7 @@ nav a {
 }
 
 nav a:hover {
- color: #b42885;
+  color: #b42885;
 }
 
 .intro {
